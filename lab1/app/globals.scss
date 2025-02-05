@@ -1,11 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
+@import './variables';
+@import './typography';
 
 :root {
   --background: #ffffff;
@@ -18,10 +15,9 @@ body {
     --foreground: #ededed;
   }
 }
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/*# sourceMappingURL=globals.css.map */

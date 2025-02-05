@@ -1,0 +1,23 @@
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  justify-content: end;
+  padding: 20px;
+  padding-right: 100px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active {
+  color: red;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+}
+
+/*# sourceMappingURL=menu.module.css.map */

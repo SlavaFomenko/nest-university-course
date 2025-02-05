@@ -6,7 +6,7 @@ export default async function ArticlesPage() {
 
     return (
         <div>
-            <h1>Articles</h1>
+            <h1 className="bg-accent" >Articles</h1>
             <ul>
                 {articles.slice(0, 5).map((article) => (
                     <li key={article.id}>
